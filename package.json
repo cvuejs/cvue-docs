@@ -1,0 +1,17 @@
+{
+  "name": "cvuejs-docs",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vue-server-renderer": "^2.6.12",
+    "vuepress": "^1.8.2"
+  },
+  "dependencies": {
+    "vue": "^2.6.12"
+  }
+}
